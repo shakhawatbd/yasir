@@ -27,6 +27,15 @@ body {
     border-radius: 25px;
     padding: 20px;
 }
+.car {
+    position: relative;
+}
+.img-abs {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
 table {
     width: 100%;
 }
