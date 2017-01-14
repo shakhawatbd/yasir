@@ -1,0 +1,114 @@
+ /*
+    Created on : Jan 13, 2016.
+    Author     : S M SHAKHAWAT HOSSAIN
+*/
+
+body {
+    font-family: 'Days One', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header section start */
+.header {
+    background-color: #2C4690;
+    border-top: 14px solid #2C4690;
+}
+
+/* Header section end */
+
+/* Header bottom section start */
+.header-bottom {
+    padding-top: 5%;
+    border-left: 6px solid #1C458E;
+    border-right: 6px solid #1C458E;
+}
+.tbl {
+    background-color: #F2F3F4;
+    border-radius: 25px;
+    padding: 20px;
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 3px;
+}
+td > span {
+    font-weight: bold;
+}
+/* Header bottom section end */
+
+/* Mercedes section start */
+.mercedes {
+    padding-top: 1%;
+    border-left: 6px solid #1C458E;
+    border-right: 6px solid #1C458E;
+}
+.m-text {
+    color: #1C458E;
+    font-weight: bold;
+}
+.mercedes h2 {
+    border-bottom: 2px solid #A09F9F;
+    padding-bottom: 20px;
+}
+
+/* Mercedes section end */
+
+/* Beskrivels section start */
+.beskrivels {
+    border-left: 6px solid #1C458E;
+    border-right: 6px solid #1C458E;
+}
+.beskrivels h1 {
+    color: #1C458E;
+    font-weight: bold;
+}
+.beskrivels p {
+    font-size: 1.2em;
+}
+.beskrivels img {
+    width: 70%;
+    margin-top: 10%;
+}
+.tak-text {
+    margin-top: 25%;
+}
+/* Beskrivels section end */
+
+/* Footer section start */
+.footer {
+    color: #fff;
+    background-color: #1C458E;
+    padding: .5% 0%;
+}
+/* Footer section end */
+
+
+@media screen and (max-width: 480px){
+    .tak-text {
+    margin-top: -3%;
+}  
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .tak-text {
+    margin-top: 44%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 980px){
+    .tak-text {
+    margin-top: 44%;
+}
+}
+
+@media (min-width: 980px) and (max-width: 1920px){
+
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
